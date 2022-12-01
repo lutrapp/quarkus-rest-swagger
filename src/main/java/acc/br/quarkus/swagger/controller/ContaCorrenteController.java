@@ -128,10 +128,6 @@ public class ContaCorrenteController {
         @Schema(title = "IdCliente", required = true)
         private Integer idCliente;
 
-//        @Schema(title = "Papel do usuario, ADMIN ou USER. USER e default")
-//        private String role;
-
-
         public String getAgencia() {
 			return agencia;
 		}
